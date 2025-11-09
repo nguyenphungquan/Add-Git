@@ -1,0 +1,14 @@
+<script>
+    let n=parseInt(prompt("Nhap n"))
+    let tong=0
+    for(let i=1;i<n;i++){
+        if(n%i==0){
+            tong=tong+i
+        }
+    }
+    if(tong==n){
+        document.writeln(n+ "la so hoan hao")
+    }else{
+        document.writeln(n+ "la so khong hoan hao")
+    }
+</script>

@@ -1,0 +1,20 @@
+<script>
+    let n = parseInt(prompt("Nhap so n"))
+    let tong = 0
+    for (i = 1; i <= n; i++) {
+        if (i > 4) {
+            tong = tong + i
+        }
+    }
+    if (tong < 10) {
+        document.writeln("Tong be hon 10"+"<br>")
+        document.writeln(tong)
+    } else if (tong == 10) {
+        document.writeln("Tong bang 10"+"<br>")
+        document.writeln(tong)
+    } else {
+        document.writeln("Tong lon hon 10"+"<br>")
+        document.writeln(tong)
+    }
+
+</script>
